@@ -4,3 +4,39 @@
     color: #2D3030;
 }
 
+body {
+    background-color: #D5B4A8;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom: 2px solid #2D3030;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: ghostwhite;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.nameProf {
+    margin-left: 75px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
