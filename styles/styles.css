@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: sans-serif;
+    color: #2D3030;
+}
+
+p, 
+ul {
+    font-size: 18px;
+}
+
+body {
+    background-color: #D5B4A8;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    background-color: #f8f8ff;
+    border-bottom: 2px solid #2D3030;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 300px;
+}
+
+main > div {
+    margin: 0 20px;
+    padding: 0 10px;
+}
+
+main h3 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #2D3030;
+}
+
+main p {
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+main ul {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+pre {
+    margin-left: 15px;
+}
+
+.leftSide > div {
+    margin-bottom: 25px;
+}
+
+.rightSide {
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+
+    background-color: #f8f8ff;
+}
+
+.photo {
+    width: 250px;
+    height: 250px;
+    
+    border-radius: 50%;
+
+    transition: 0.2s;
+
+    object-fit: cover;
+}
+
+.nameProf {
+    margin-left: 75px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f8f8ff;
+    
+    border-top: 2px solid #2D3030;
+}
+
+footer > .firstRow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+footer > .firstRow img {
+    height: 50px;
+    width: auto;
+    margin: 0 30px;
+    margin-bottom: 30px;
+}
+
+footer > .secondRow {
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CV: Klevleev Vyacheslav</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <img class="photo" src="./img/photo.jpeg" alt="Avatar" />
+        <div class="nameProf">
+            <h1>Klevleev Vyacheslav</h1>
+            <h2>Front-end developer</h2>
+        </div>
+    </header>
+    <div class="container">
+
+
+        <main>
+            <div class="leftSide">
+                <div>
+                    <h3>About me</h3>
+                    <p>I am 20 years old, i study computer since in MIREA - Russian Technological Univercity since 2018.
+                        During my studies
+                        at the university, i gained experience in developing applications in C/C++, Swift and JS. In my
+                        2nd year, I start developing web applications for React. For example, you can look at the source
+                        code and test the application at <a
+                            href="https://github.com/slavaklevleev/rsmu-rating">https://github.com/slavaklevleev/rsmu-rating</a>.
+                    </p>
+                    <p>Also, as a student, I am engaged in vocational guidance of an applicant and now i occupy the
+                        position of deputy commander of the vocational guidance detachment of the RTU MIREA.</p>
+                    <p>
+                        Since March of 2021 i working as front-end developer in the department for work with applicants
+                        of RTU MIREA. For example, you can check my work at <a
+                            href="https://priem.mirea.ru/guide">https://priem.mirea.ru/guide</a> or
+                        <a href="https://priem.mirea.ru/events/">https://priem.mirea.ru/events/</a>
+                    </p>
+                    <p>
+                        As an employee, I always try to complete tasks in a timely and efficient manner. Always open to
+                        learning and improving my skills.
+                    </p>
+                </div>
+
+                <div>
+                    <h3>Education</h3>
+
+                    <ul>
+                        <li>MIREA - Russian Technological Univercity. Computer since (2018-2022: in progress)</li>
+                        <li>RS Schools Course «JavaScript/Front-end. Stage 1» (2021: in progress)</li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <h3>Skils</h3>
+                    <ul>
+                        <li>HTML 5</li>
+                        <li>CSS 3</li>
+                        <li>JS</li>
+                        <li>React</li>
+                        <li>SQL</li>
+                        <li>Git</li>
+                        <li>Adobe XD</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Code example</h3>
+                    <p>As an example code, i gave one simple react component developed by me</p>
+                    <pre>
+                        <code>
+import React from "react"; <br/>
+import styles from "./styles/Description.module.css";<br/>
+const Description = (props) => {<br/>
+    return (<br/>
+        &lt;div className={styles.wrapper}&gt;<br/>
+            &lt;div className={styles.innerWrapper}&gt;<br/>
+                &lt;h1 className={styles.header}&gt;Описание программы&lt;/h1&gt;<br/>
+                &lt;div className={styles.text}&gt;<br/>
+                    {props.description}<br/>
+                &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+        &lt;/div&gt;<br/>
+    );<br/>
+};<br/>
+<br/>
+export default Description;&lt;/p>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <div class="rightSide">
+                <h3>Contacts</h3>
+                <div class="code">
+                    <ul>
+                        <li>Location: Moscow, Russia</li>
+                        <li>Telegram: @itskleverbaby</li>
+                        <li>Email: slava.klevleev@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+
+
+    </div>
+    <footer>
+        <div class="firstRow">
+            <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="rsschool logo"/></a>
+            <a href="https://github.com/slavaklevleev"><img src="./img/github.png" alt="github logo"/></a>
+
+        </div>
+        <div class="secondRow">Vyacheslav Klevleev 2021</div>
+    </footer>
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        var avatar = document.getElementsByClassName("photo")
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                avatar[0].style.height = "100px";
+                avatar[0].style.width = "100px";
+            } else {
+                avatar[0].style.height = "250px";
+                avatar[0].style.width = "250px";
+            }
+        }
+    </script>
+</body>
+
+
+
+</html>
