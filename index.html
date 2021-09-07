@@ -105,21 +105,23 @@ export default Description;&lt;/p>
 
         </main>
     </div>
+
+    <script>
+        window.onscroll = function () { scrollFunction() };
+        var avatar = document.getElementsByClassName("photo")
+        console.log(avatar)
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                avatar[0].style.height = "100px";
+                avatar[0].style.width = "100px";
+            } else {
+                avatar[0].style.height = "250px";
+                avatar[0].style.width = "250px";
+            }
+        }
+    </script>
 </body>
 
-<script>
-    window.onscroll = function () { scrollFunction() };
-    var avatar = document.getElementsByClassName("photo")
-    console.log(avatar)
-    function scrollFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            avatar[0].style.height = "100px";
-            avatar[0].style.width = "100px";
-        } else {
-            avatar[0].style.height = "250px";
-            avatar[0].style.width = "250px";
-        }
-    }
-</script>
+
 
 </html>
