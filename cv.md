@@ -40,5 +40,5 @@ export default Description;
 * RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 
 ## Languages
-* Russian - Native
-* English - A2/B1 (Pre-Intermediate/Intermediate)
+* **Russian** - Native
+* **English** - A2/B1 (Pre-Intermediate/Intermediate)
