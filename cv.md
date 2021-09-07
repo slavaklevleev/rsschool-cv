@@ -34,3 +34,11 @@ const Description = (props) => {
 
 export default Description;
 ```
+
+## Eduction
+* MIREA - Russian Technological Univercitu (2018-2022). Computer since (in progress)
+* RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
+## Languages
+* Russian - Native
+* English - A2/B1 (Pre-Intermediate/Intermediate)
