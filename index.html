@@ -8,14 +8,15 @@
 </head>
 
 <body>
+    <header>
+        <img class="photo" src="./img/photo.jpeg" alt="Avatar" />
+        <div class="nameProf">
+            <h1>Klevleev Vyacheslav</h1>
+            <h2>Front-end developer</h2>
+        </div>
+    </header>
     <div class="container">
-        <header>
-            <img class="photo" src="./img/photo.jpeg" alt="Avatar" />
-            <div class="nameProf">
-                <h1>Klevleev Vyacheslav</h1>
-                <h2>Front-end developer</h2>
-            </div>
-        </header>
+
 
         <main>
             <div class="leftSide">
@@ -104,8 +105,17 @@ export default Description;&lt;/p>
             </div>
 
         </main>
-    </div>
 
+
+    </div>
+    <footer>
+        <div class="firstRow">
+            <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" /></a>
+            <a href="https://github.com/slavaklevleev"><img src="./img/github.png" /></a>
+            
+        </div>
+        <div class="secondRow">Vyacheslav Klevleev 2021</div>
+    </footer>
     <script>
         window.onscroll = function () { scrollFunction() };
         var avatar = document.getElementsByClassName("photo")
